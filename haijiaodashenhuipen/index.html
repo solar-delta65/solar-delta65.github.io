@@ -1,0 +1,1108 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>海角大神会喷水的亲姐姐-社区现象观察与条目索引</title>
+<meta name="description" content="海角大神会喷水的亲姐姐是海角社区近一周讨论度最高的连载账号之一。这里整理其更新记录、争议回应、同类账号对比与观众评论，附条目检索与判断清单，方便核对时间线与说法差异。">
+<meta name="keywords" content="海角大神会喷水的亲姐姐">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b3b4a'/%3E%3Cpath d='M6 22c4-9 8-9 12 0s6 9 8 0' stroke='%2352d6c8' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#12222b;
+  --ink-2:#3d5560;
+  --ink-3:#6b8089;
+  --paper:#f6f8f7;
+  --card:#ffffff;
+  --line:#dbe4e2;
+  --brand:#0b3b4a;
+  --brand-2:#0f5a6b;
+  --accent:#d05b3a;
+  --accent-soft:#fbe8e2;
+  --mint:#e3f2ee;
+  --mint-2:#c7e6de;
+  --warn:#8a5a12;
+  --warn-bg:#fdf3df;
+  --radius-s:6px;
+  --radius-m:12px;
+  --radius-l:20px;
+  --shadow-s:0 1px 2px rgba(18,34,43,.06),0 2px 8px rgba(18,34,43,.05);
+  --shadow-m:0 4px 18px rgba(18,34,43,.09);
+  --sp-1:6px;--sp-2:12px;--sp-3:18px;--sp-4:26px;--sp-5:38px;--sp-6:56px;
+  --fs-1:12px;--fs-2:14px;--fs-3:16px;--fs-4:19px;--fs-5:24px;--fs-6:32px;--fs-7:42px;
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --sticky-h:96px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;font-family:var(--font);color:var(--ink);background:var(--paper);
+  font-size:var(--fs-3);line-height:1.78;
+}
+h1,h2,h3,h4{margin:0;line-height:1.32;font-weight:700;letter-spacing:.01em}
+p{margin:0 0 var(--sp-2)}
+a{color:var(--brand-2);text-decoration:none}
+a:hover{text-decoration:underline}
+ul,ol{margin:0 0 var(--sp-2);padding-left:1.25em}
+li{margin-bottom:4px}
+img{max-width:100%;display:block}
+button{font-family:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:4px}
+.wrap{width:min(1180px,100% - 32px);margin-inline:auto}
+section{scroll-margin-top:var(--sticky-h)}
+
+/* ===== 吸顶公告条 ===== */
+.notice{
+  position:sticky;top:0;z-index:60;background:var(--brand);color:#dff0ec;
+  font-size:var(--fs-1);letter-spacing:.02em;
+}
+.notice .wrap{display:flex;align-items:center;gap:10px;min-height:34px;padding-block:5px;flex-wrap:wrap}
+.notice .tag{background:var(--accent);color:#fff;border-radius:999px;padding:1px 9px;font-weight:700;flex:0 0 auto}
+.notice a{color:#9fe3d6;text-decoration:underline;text-underline-offset:3px}
+
+/* ===== 吸顶页头 ===== */
+.site-head{
+  position:sticky;top:34px;z-index:55;background:rgba(246,248,247,.94);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--line);
+}
+.head-row{display:flex;align-items:center;gap:var(--sp-3);padding-block:12px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.brand svg{width:38px;height:38px;flex:0 0 auto}
+.brand-name{font-size:var(--fs-4);font-weight:800;color:var(--brand);line-height:1.2}
+.brand-sub{display:block;font-size:11px;color:var(--ink-3);font-weight:400;letter-spacing:.14em}
+.nav{display:flex;gap:2px;flex-wrap:wrap;flex:1 1 320px}
+.nav a{
+  padding:7px 11px;border-radius:var(--radius-s);font-size:var(--fs-2);color:var(--ink-2);
+}
+.nav a:hover{background:var(--mint);text-decoration:none;color:var(--brand)}
+.nav a.on{background:var(--brand);color:#fff}
+.head-tools{display:flex;align-items:center;gap:8px;margin-left:auto}
+.search-box{display:flex;align-items:center;border:1px solid var(--line);background:#fff;border-radius:999px;padding:3px 4px 3px 12px}
+.search-box input{
+  border:0;background:transparent;font:inherit;font-size:var(--fs-2);width:150px;color:var(--ink);outline:none;
+}
+.search-box button{
+  border:0;background:var(--brand);color:#fff;border-radius:999px;padding:5px 12px;font-size:var(--fs-1);
+}
+.btn-menu{
+  display:none;border:1px solid var(--line);background:#fff;color:var(--brand);
+  border-radius:var(--radius-s);padding:7px 12px;font-size:var(--fs-2);font-weight:600;
+}
+.search-feedback{font-size:var(--fs-1);color:var(--accent);padding:0 0 8px}
+.search-feedback:empty{display:none}
+.mobile-nav{display:none}
+
+/* ===== 首屏 ===== */
+.hero{
+  padding:var(--sp-6) 0 var(--sp-5);
+  background:
+    radial-gradient(1100px 420px at 82% -10%,rgba(82,214,200,.22),transparent 62%),
+    radial-gradient(700px 300px at 6% 0%,rgba(208,91,58,.10),transparent 60%),
+    linear-gradient(180deg,#eef5f2,#f6f8f7 70%);
+  border-bottom:1px solid var(--line);
+}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:var(--sp-5);align-items:center}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;font-size:var(--fs-1);letter-spacing:.16em;
+  color:var(--brand-2);background:#fff;border:1px solid var(--mint-2);border-radius:999px;padding:4px 12px;margin-bottom:var(--sp-3);
+}
+.hero h1{font-size:var(--fs-7);letter-spacing:.01em;margin-bottom:var(--sp-3);color:var(--brand)}
+.hero .lede{font-size:var(--fs-4);color:var(--ink-2);max-width:34em;line-height:1.7}
+.hero .lede strong{color:var(--brand);font-weight:700}
+.hero-cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:var(--sp-3)}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:10px 20px;
+  font-size:var(--fs-2);font-weight:700;border:1px solid transparent;transition:transform .15s ease;
+}
+.btn:hover{transform:translateY(-2px);text-decoration:none}
+.btn-primary{background:var(--brand);color:#fff}
+.btn-ghost{background:#fff;color:var(--brand);border-color:var(--mint-2)}
+.hero-stats{display:flex;gap:var(--sp-4);margin-top:var(--sp-4);flex-wrap:wrap}
+.hero-stats div{min-width:96px}
+.hero-stats b{display:block;font-size:var(--fs-5);color:var(--brand);line-height:1.1}
+.hero-stats span{font-size:var(--fs-1);color:var(--ink-3)}
+.hero-art{position:relative}
+.hero-art svg{width:100%;height:auto}
+.art-note{
+  position:absolute;right:6px;bottom:-6px;background:#fff;border:1px solid var(--line);
+  border-radius:var(--radius-m);box-shadow:var(--shadow-s);padding:8px 12px;font-size:var(--fs-1);color:var(--ink-2);max-width:220px;
+}
+
+/* ===== 布局：左侧单栏 + 主内容（桌面），至平板转单栏 ===== */
+.layout{display:grid;grid-template-columns:1fr;gap:var(--sp-5);padding-block:var(--sp-5)}
+.content-col{min-width:0}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius-l);
+  padding:var(--sp-4);box-shadow:var(--shadow-s);margin-bottom:var(--sp-4);
+}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:var(--sp-2);margin-bottom:var(--sp-3);flex-wrap:wrap}
+.sec-head h2{font-size:var(--fs-5)}
+.sec-tag{font-size:var(--fs-1);color:var(--ink-3);letter-spacing:.12em}
+.kicker{font-size:var(--fs-1);color:var(--accent);font-weight:700;letter-spacing:.16em;display:block;margin-bottom:6px}
+
+/* 领域概览：非对称组合 */
+.overview{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);gap:var(--sp-3)}
+.ov-main p{color:var(--ink-2)}
+.ov-side{display:grid;gap:10px;align-content:start}
+.mini-stat{background:var(--mint);border-radius:var(--radius-m);padding:10px 14px;border:1px solid var(--mint-2)}
+.mini-stat b{display:block;color:var(--brand);font-size:var(--fs-4)}
+.mini-stat span{font-size:var(--fs-1);color:var(--ink-2)}
+.defs{list-style:none;padding:0;margin:var(--sp-2) 0 0}
+.defs li{border-left:3px solid var(--mint-2);padding-left:12px;margin-bottom:10px;font-size:var(--fs-2);color:var(--ink-2)}
+.defs b{color:var(--ink)}
+
+/* 网格卡片 */
+.grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--sp-3)}
+.grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--sp-3)}
+.pick{
+  border:1px solid var(--line);border-radius:var(--radius-m);overflow:hidden;background:#fff;
+  display:flex;flex-direction:column;transition:transform .18s ease,box-shadow .18s ease;
+}
+.pick:hover{transform:translateY(-3px);box-shadow:var(--shadow-m)}
+.pick img{width:100%;height:150px;object-fit:cover}
+.pick .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.pick h3{font-size:var(--fs-3)}
+.pick p{font-size:var(--fs-2);color:var(--ink-2);margin:0}
+.pick .meta{font-size:var(--fs-1);color:var(--ink-3);margin-top:auto;display:flex;gap:10px;flex-wrap:wrap}
+.pill{display:inline-block;background:var(--accent-soft);color:var(--accent);font-size:var(--fs-1);font-weight:700;border-radius:999px;padding:1px 9px}
+
+/* 紧凑列表 */
+.list-compact{list-style:none;padding:0;margin:0}
+.list-compact li{
+  display:grid;grid-template-columns:86px 1fr auto;gap:12px;align-items:baseline;
+  padding:11px 0;border-bottom:1px dashed var(--line);font-size:var(--fs-2);
+}
+.list-compact li:last-child{border-bottom:0}
+.list-compact time{color:var(--ink-3);font-size:var(--fs-1);font-variant-numeric:tabular-nums}
+.list-compact .t{color:var(--ink);font-weight:600}
+.list-compact .t small{display:block;font-weight:400;color:var(--ink-2);font-size:var(--fs-2);margin-top:2px}
+.list-compact .chip{font-size:var(--fs-1);color:var(--brand-2);background:var(--mint);border-radius:999px;padding:1px 9px;white-space:nowrap}
+
+/* 分类入口：标签索引 */
+.tag-index{display:flex;flex-wrap:wrap;gap:9px}
+.tag-index a{
+  display:inline-flex;align-items:baseline;gap:7px;border:1px solid var(--line);background:#fff;
+  border-radius:999px;padding:7px 14px;font-size:var(--fs-2);color:var(--ink);
+}
+.tag-index a:hover{border-color:var(--brand);color:var(--brand);text-decoration:none}
+.tag-index em{font-style:normal;font-size:var(--fs-1);color:var(--ink-3)}
+.tag-index a:nth-child(3n) em{color:var(--accent)}
+
+/* 深度解析 */
+.deep{background:#fff;border:1px solid var(--line);border-radius:var(--radius-l);padding:var(--sp-4);box-shadow:var(--shadow-s)}
+.deep h2{font-size:var(--fs-5);margin-bottom:var(--sp-2)}
+.deep h3{font-size:var(--fs-4);margin:var(--sp-4) 0 var(--sp-2);color:var(--brand);padding-left:12px;border-left:4px solid var(--accent)}
+.deep p{color:var(--ink-2)}
+.claim{
+  background:var(--warn-bg);border:1px solid #edd9ab;border-radius:var(--radius-m);
+  padding:14px 18px;margin:var(--sp-3) 0;
+}
+.claim b{color:var(--warn);display:block;font-size:var(--fs-1);letter-spacing:.12em;margin-bottom:4px}
+.table-wrap{overflow-x:auto;margin:var(--sp-2) 0 var(--sp-3)}
+table{border-collapse:collapse;width:100%;font-size:var(--fs-2);min-width:460px}
+th,td{border:1px solid var(--line);padding:8px 11px;text-align:left;vertical-align:top}
+th{background:var(--mint);color:var(--brand);font-weight:700}
+td{color:var(--ink-2)}
+caption{caption-side:top;text-align:left;font-size:var(--fs-1);color:var(--ink-3);padding-bottom:6px}
+blockquote{
+  margin:var(--sp-3) 0;padding:14px 18px;border-left:4px solid var(--mint-2);
+  background:#f2f8f6;border-radius:0 var(--radius-m) var(--radius-m) 0;font-size:var(--fs-2);color:var(--ink-2);
+}
+
+/* 体验指南：编号步骤 */
+.steps{list-style:none;counter-reset:step;padding:0;margin:0;display:grid;gap:12px}
+.steps li{
+  counter-increment:step;display:grid;grid-template-columns:38px 1fr;gap:14px;
+  border:1px solid var(--line);border-radius:var(--radius-m);padding:13px 16px;background:#fff;
+}
+.steps li::before{
+  content:counter(step);display:grid;place-items:center;width:38px;height:38px;border-radius:50%;
+  background:var(--brand);color:#fff;font-weight:700;font-size:var(--fs-3);
+}
+.steps b{display:block;font-size:var(--fs-3);margin-bottom:2px}
+.steps span{font-size:var(--fs-2);color:var(--ink-2)}
+
+/* 对照面板 */
+.panel-compare{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:var(--radius-m);overflow:hidden}
+.panel-compare > div{padding:16px 18px}
+.panel-compare .a{background:#f7fbfa;border-right:1px solid var(--line)}
+.panel-compare .b{background:var(--accent-soft)}
+.panel-compare h4{font-size:var(--fs-3);margin-bottom:8px}
+.panel-compare .a h4{color:var(--brand)}
+.panel-compare .b h4{color:var(--accent)}
+.panel-compare ul{margin:0;padding-left:1.1em;font-size:var(--fs-2);color:var(--ink-2)}
+
+/* FAQ */
+details{border:1px solid var(--line);border-radius:var(--radius-m);background:#fff;margin-bottom:10px;overflow:hidden}
+details[open]{border-color:var(--mint-2);box-shadow:var(--shadow-s)}
+summary{
+  list-style:none;cursor:pointer;padding:13px 44px 13px 16px;font-weight:600;font-size:var(--fs-3);position:relative;
+}
+summary::-webkit-details-marker{display:none}
+summary::after{
+  content:"+";position:absolute;right:16px;top:50%;transform:translateY(-50%);
+  color:var(--brand-2);font-size:20px;font-weight:700;line-height:1;
+}
+details[open] summary::after{content:"−"}
+details .ans{padding:0 16px 16px;font-size:var(--fs-2);color:var(--ink-2)}
+details .ans p{margin-bottom:6px}
+
+/* 评论 */
+.comments{display:grid;gap:12px}
+.cmt{border:1px solid var(--line);border-radius:var(--radius-m);padding:13px 16px;background:#fff}
+.cmt header{display:flex;align-items:center;gap:8px;font-size:var(--fs-1);color:var(--ink-3);margin-bottom:5px;flex-wrap:wrap}
+.avatar{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:var(--mint-2);color:var(--brand);font-weight:700;font-size:12px;flex:0 0 auto}
+.cmt .who{color:var(--ink);font-weight:700;font-size:var(--fs-2)}
+.cmt p{margin:0;font-size:var(--fs-2);color:var(--ink-2)}
+.cmt.ref{border-left:4px solid var(--accent)}
+.badge-obj{font-size:11px;color:var(--accent);border:1px solid var(--accent-soft);background:var(--accent-soft);border-radius:999px;padding:0 8px}
+
+/* 资讯列表 */
+.news{display:grid;gap:10px}
+.news article{border:1px solid var(--line);border-radius:var(--radius-m);padding:13px 16px;background:#fff}
+.news h3{font-size:var(--fs-3);margin-bottom:4px}
+.news p{font-size:var(--fs-2);color:var(--ink-2);margin:0}
+.news .src{font-size:var(--fs-1);color:var(--ink-3);margin-top:6px;display:flex;gap:10px;flex-wrap:wrap}
+
+/* 相关推荐标签 */
+.rel-tags{display:flex;flex-wrap:wrap;gap:8px}
+.rel-tags a{
+  font-size:var(--fs-2);background:var(--mint);color:var(--brand);border-radius:var(--radius-s);
+  padding:6px 12px;border:1px solid var(--mint-2);
+}
+.rel-tags a:hover{background:var(--brand);color:#fff;border-color:var(--brand);text-decoration:none}
+
+/* 时间线 */
+.timeline{list-style:none;padding:0;margin:0;position:relative}
+.timeline::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:var(--mint-2)}
+.timeline li{position:relative;padding-left:30px;margin-bottom:14px}
+.timeline li::before{
+  content:"";position:absolute;left:1px;top:7px;width:14px;height:14px;border-radius:50%;
+  background:#fff;border:3px solid var(--brand-2);
+}
+.timeline time{display:block;font-size:var(--fs-1);color:var(--accent);font-weight:700;font-variant-numeric:tabular-nums}
+.timeline span{font-size:var(--fs-2);color:var(--ink-2)}
+
+/* 评论区提交（互动） */
+.cmt-form{display:grid;gap:8px;margin-top:var(--sp-3);border-top:1px dashed var(--line);padding-top:var(--sp-3)}
+.cmt-form label{font-size:var(--fs-1);color:var(--ink-3);font-weight:700}
+.cmt-form input,.cmt-form textarea{
+  width:100%;border:1px solid var(--line);border-radius:var(--radius-s);padding:9px 11px;
+  font:inherit;font-size:var(--fs-2);color:var(--ink);background:#fff;
+}
+.cmt-form textarea{min-height:76px;resize:vertical}
+.cmt-form button{
+  justify-self:start;border:0;background:var(--brand);color:#fff;border-radius:999px;
+  padding:9px 20px;font-size:var(--fs-2);font-weight:700;
+}
+.form-note{font-size:var(--fs-1);color:var(--ink-3)}
+
+/* 投票互动 */
+.poll{display:grid;gap:8px}
+.poll-row{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;border:1px solid var(--line);border-radius:var(--radius-s);padding:9px 12px;background:#fff;text-align:left;font-size:var(--fs-2);color:var(--ink)}
+.poll-row:hover{border-color:var(--brand-2)}
+.poll-bar{grid-column:1/-1;height:7px;border-radius:999px;background:#eef3f1;overflow:hidden;margin-top:2px}
+.poll-bar i{display:block;height:100%;width:0;background:var(--brand-2);transition:width .4s ease}
+.poll-row.chosen{border-color:var(--brand);background:#f4fbf9}
+.poll-row span.pct{font-size:var(--fs-1);color:var(--ink-3);font-variant-numeric:tabular-nums}
+
+/* 侧栏 */
+.side-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius-m);padding:var(--sp-3);margin-bottom:var(--sp-3);box-shadow:var(--shadow-s)}
+.side-card h3{font-size:var(--fs-3);margin-bottom:10px;color:var(--brand)}
+.side-nav{list-style:none;padding:0;margin:0;display:grid;gap:2px}
+.side-nav a{display:block;font-size:var(--fs-2);padding:6px 10px;border-radius:var(--radius-s);color:var(--ink-2);border-left:3px solid transparent}
+.side-nav a:hover{background:var(--mint);text-decoration:none}
+.side-nav a.active{background:var(--mint);color:var(--brand);font-weight:700;border-left-color:var(--accent)}
+.side-note{font-size:var(--fs-1);color:var(--ink-3);line-height:1.7}
+
+/* 页尾 */
+.site-foot{background:var(--brand);color:#cfe4df;margin-top:var(--sp-5);padding:var(--sp-5) 0 var(--sp-3)}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:var(--sp-4)}
+.site-foot h4{color:#fff;font-size:var(--fs-2);margin-bottom:8px;letter-spacing:.06em}
+.site-foot a{color:#a9dcd1;font-size:var(--fs-2)}
+.site-foot a:hover{color:#fff}
+.foot-list{list-style:none;padding:0;margin:0;display:grid;gap:5px}
+.foot-brand{font-size:var(--fs-4);color:#fff;font-weight:800;display:flex;align-items:center;gap:9px;margin-bottom:8px}
+.foot-brand svg{width:28px;height:28px}
+.foot-pos{font-size:var(--fs-2);color:#a9dcd1;max-width:26em}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.16);margin-top:var(--sp-4);padding-top:var(--sp-3);font-size:var(--fs-1);color:#8fb8b0;display:flex;justify-content:space-between;gap:var(--sp-2);flex-wrap:wrap}
+
+/* 回到顶部 */
+#toTop{
+  position:fixed;right:18px;bottom:18px;z-index:70;border:0;border-radius:50%;
+  width:44px;height:44px;background:var(--brand);color:#fff;font-size:18px;box-shadow:var(--shadow-m);
+  opacity:0;visibility:hidden;transition:opacity .2s ease,visibility .2s ease,transform .2s ease;
+}
+#toTop.show{opacity:1;visibility:visible}
+#toTop:hover{transform:translateY(-3px)}
+
+@media (max-width:1000px){
+  .grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .hero-grid{grid-template-columns:1fr}
+  .hero-art{order:-1;max-width:420px}
+  .overview{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .search-box input{width:120px}
+}
+@media (max-width:760px){
+  :root{--sticky-h:104px;--fs-7:31px;--fs-6:26px;--fs-5:21px}
+  .head-row{padding-block:10px;gap:10px}
+  .btn-menu{display:inline-flex;margin-left:auto}
+  .head-tools{width:100%;order:3;margin-left:0;justify-content:space-between}
+  .search-box{flex:1 1 auto}
+  .search-box input{width:100%}
+  .nav{
+    flex-direction:column;width:100%;display:none;order:4;
+    border-top:1px solid var(--line);padding-top:8px;
+  }
+  .nav.open{display:flex}
+  .nav a{padding:9px 10px}
+  .grid-3,.grid-2{grid-template-columns:1fr}
+  .panel-compare{grid-template-columns:1fr}
+  .panel-compare .a{border-right:0;border-bottom:1px solid var(--line)}
+  .list-compact li{grid-template-columns:1fr;gap:2px}
+  .list-compact time{color:var(--accent);font-weight:700}
+  .foot-grid{grid-template-columns:1fr}
+  .layout{padding-block:var(--sp-4)}
+  .card,.deep{padding:var(--sp-3)}
+  #toTop{bottom:14px;right:14px;width:40px;height:40px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- 吸顶公告条 -->
+<div class="notice" id="notice-bar">
+  <div class="wrap">
+    <span class="tag">更新</span>
+    <span>11月7日 22:40 收录「喷水梗」第 3 次改口回应；11月6日 新增同类账号 6 个对照条目。</span>
+    <a href="/#updates">查看时间线</a>
+  </div>
+</div>
+
+<!-- 吸顶页头 -->
+<header class="site-head" id="site-head">
+  <div class="wrap">
+    <div class="head-row">
+      <a class="brand" href="/#top" aria-label="返回首页顶部">
+        <svg viewBox="0 0 40 40" role="img" aria-hidden="true">
+          <rect width="40" height="40" rx="10" fill="#0b3b4a"/>
+          <path d="M7 27c4-13 9-13 13 0s7 13 13 0" stroke="#52d6c8" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+          <circle cx="12" cy="12" r="2.6" fill="#d05b3a"/>
+        </svg>
+        <span>
+          <span class="brand-name">海角大神会喷水的亲姐姐</span>
+          <span class="brand-sub">条目 · 时间线 · 说法核对</span>
+        </span>
+      </a>
+      <button class="btn-menu" id="menuBtn" aria-expanded="false" aria-controls="mainNav">栏目菜单</button>
+      <nav class="nav" id="mainNav" aria-label="主题导航">
+        <a href="/#overview">领域概览</a>
+        <a href="/#picks">精选条目</a>
+        <a href="/#updates">最新更新</a>
+        <a href="/#channels">分类入口</a>
+        <a href="/#deep">深度解析</a>
+        <a href="/#guide">体验指南</a>
+        <a href="/#faq">常见问题</a>
+        <a href="/#comments">观众评论</a>
+      </nav>
+      <div class="head-tools">
+        <div class="search-box">
+          <label for="q" style="position:absolute;left:-9999px">站内查找条目</label>
+          <input id="q" type="search" placeholder="查条目、账号、日期" autocomplete="off">
+          <button id="qBtn" type="button">查找</button>
+        </div>
+      </div>
+    </div>
+    <div class="search-feedback" id="qFeedback" role="status" aria-live="polite"></div>
+  </div>
+</header>
+
+<main id="top">
+  <!-- 首屏 -->
+  <section class="hero" aria-labelledby="h1">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">海角社区 · 账号档案 · 2026-11</span>
+        <h1 id="h1">海角大神会喷水的亲姐姐</h1>
+        <p class="lede">一个把「喷水」当作固定表演环节的社区账号，从 9 月起在海角社区以短片加长文交替更新。<strong>10 月 29 日</strong>后的三版回应说法互相矛盾，本站按发布日期、原话片段和删改痕迹整理成可核对的条目表，供你自行比对。</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="/#deep">读深度解析</a>
+          <a class="btn btn-ghost" href="/#updates">看更新记录</a>
+        </div>
+        <div class="hero-stats">
+          <div><b>37</b><span>已收录条目</span></div>
+          <div><b>6</b><span>可对照同类账号</span></div>
+          <div><b>3</b><span>说法变更次数</span></div>
+          <div><b>11-07</b><span>最近一次增补</span></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <svg viewBox="0 0 420 320" role="img" aria-label="原创插画：三条不同高度的水柱代表三次说法变更，旁边为条目卡片轮廓">
+          <defs>
+            <linearGradient id="wg" x1="0" y1="1" x2="0" y2="0">
+              <stop offset="0" stop-color="#0f5a6b"/><stop offset="1" stop-color="#52d6c8"/>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="0" width="420" height="320" rx="22" fill="#ffffff" opacity=".55"/>
+          <path d="M30 270h360" stroke="#c7e6de" stroke-width="2"/>
+          <g>
+            <rect x="58" y="150" width="46" height="120" rx="10" fill="url(#wg)" opacity=".85"/>
+            <rect x="130" y="96" width="46" height="174" rx="10" fill="url(#wg)" opacity=".6"/>
+            <rect x="202" y="168" width="46" height="102" rx="10" fill="url(#wg)" opacity=".9"/>
+          </g>
+          <g font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="12" fill="#3d5560">
+            <text x="52" y="292">10-24 版</text>
+            <text x="124" y="292">10-29 版</text>
+            <text x="196" y="292">11-03 版</text>
+          </g>
+          <g>
+            <rect x="278" y="60" width="118" height="76" rx="12" fill="#f6f8f7" stroke="#dbe4e2"/>
+            <rect x="290" y="76" width="62" height="8" rx="4" fill="#0b3b4a"/>
+            <rect x="290" y="92" width="92" height="6" rx="3" fill="#c7e6de"/>
+            <rect x="290" y="104" width="78" height="6" rx="3" fill="#c7e6de"/>
+            <rect x="290" y="116" width="52" height="6" rx="3" fill="#d05b3a" opacity=".7"/>
+            <rect x="278" y="152" width="118" height="52" rx="12" fill="#f6f8f7" stroke="#dbe4e2"/>
+            <rect x="290" y="168" width="56" height="8" rx="4" fill="#0b3b4a"/>
+            <rect x="290" y="184" width="82" height="6" rx="3" fill="#c7e6de"/>
+          </g>
+        </svg>
+        <div class="art-note">柱高不等于热度，只是三版回应中「时长」与「拍摄人数」两种说法各自标注的上限。</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap layout">
+    <div class="content-col">
+
+      <!-- 领域概览 -->
+      <section class="card" id="overview" aria-labelledby="h2-overview">
+        <div class="sec-head">
+          <div>
+            <span class="kicker">领域概览</span>
+            <h2 id="h2-overview">海角社区里「喷水」类账号的几种常见形态</h2>
+          </div>
+          <span class="sec-tag">概念 · 类型 · 判断方法</span>
+        </div>
+        <div class="overview">
+          <div class="ov-main">
+            <p>「喷水」在社区语境里既指画面里的物理动作，也指账号被讨论的方式。前者看拍摄手法与现场条件，后者看叙述版本是否前后一致。把两件事混在一处，是这类账号争议反复出现的直接原因。</p>
+            <p>按更新方式分，目前能观察到的有三类。第一类是短片账号，单条时长在 40 秒到 2 分钟，靠固定开头和固定机位建立辨识度；第二类是长文账号，配图少，以文字叙述现场过程；第三类是混合账号，一周内交替发布短片与长文。混合类内容更完整，但版本管理最难，删改痕迹也最容易被翻出来。</p>
+            <p>判断一个账号是否值得跟进，通常看三样：更新是否按承诺的周期兑现、说法变更时有没有给出补充依据、同类账号里是否有可对照的行为样本。这三项都能对照公开页面核对，不依赖个人喜好。</p>
+            <ul class="defs">
+              <li><b>喷水片段</b>：画面类型描述，不是账号名。社区里同标签条目超过 200 条，命名重复度高，检索时需要搭配日期或账号前缀。</li>
+              <li><b>版本</b>：同一事件在不同日期的叙述。一次删改、一次补拍、一次在评论区的口头更正，都可记为一次版本变化。</li>
+              <li><b>对照账号</b>：更新方式相似、可用来比较更新频率与回应方式的账号。数量不必多，但时间要挨得近。</li>
+            </ul>
+          </div>
+          <div class="ov-side">
+            <div class="mini-stat"><b>200+</b><span>带「喷水」标签的可见条目</span></div>
+            <div class="mini-stat"><b>3 / 7</b><span>三次说法变更间隔的天数分布</span></div>
+            <div class="mini-stat"><b>40s–2min</b><span>短片账号常见单条时长</span></div>
+            <div class="mini-stat"><b>6</b><span>本周可对照同类账号</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 精选内容推荐 -->
+      <section class="card" id="picks" aria-labelledby="h2-picks">
+        <div class="sec-head">
+          <div>
+            <span class="kicker">精选内容推荐</span>
+            <h2 id="h2-picks">本周值得先看的五个条目</h2>
+          </div>
+          <span class="sec-tag">按信息量排序，非按热度</span>
+        </div>
+        <div class="grid-3">
+          <article class="pick">
+            <img src="https://picsum.photos/seed/hjspray01/480/300" width="480" height="300" loading="lazy" alt="手写时间线与三张便签并排的桌面照片">
+            <div class="body">
+              <span class="pill">时间线</span>
+              <h3>10月29日回应原文对照表</h3>
+              <p>三版回应的原句并排，标出「拍摄人数」与「时长」两处改动。</p>
+              <div class="meta"><span>11-06 更新</span><span>7 处差异</span></div>
+            </div>
+          </article>
+          <article class="pick">
+            <img src="https://picsum.photos/seed/hjspray02/480/300" width="480" height="300" loading="lazy" alt="两个相似构图并排放置的对照照片">
+            <div class="body">
+              <span class="pill">对照</span>
+              <h3>同类账号六个样本的更新节奏</h3>
+              <p>把承诺周期与实际发布间隔放在一张表里，逐条核对拖延天数。</p>
+              <div class="meta"><span>11-05 发布</span><span>6 个样本</span></div>
+            </div>
+          </article>
+          <article class="pick">
+            <img src="https://picsum.photos/seed/hjspray03/480/300" width="480" height="300" loading="lazy" alt="笔记本上写着关键词与箭头的分析草图">
+            <div class="body">
+              <span class="pill">阅读区</span>
+              <h3>「喷水梗」为什么会被反复改口</h3>
+              <p>从叙述动机与社区互动两层拆开看，给出可被反驳的判断。</p>
+              <div class="meta"><span>11-04 发布</span><span>3 个 H3 论点</span></div>
+            </div>
+          </article>
+          <article class="pick">
+            <img src="https://picsum.photos/seed/hjspray04/480/300" width="480" height="300" loading="lazy" alt="手机屏幕截图被打印后放在桌面的照片">
+            <div class="body">
+              <span class="pill">评论</span>
+              <h3>评论区里被反复引用的四句话</h3>
+              <p>只保留能对应到具体条目或具体日期的评论，其余略去。</p>
+              <div class="meta"><span>11-07 整理</span><span>4 条原话</span></div>
+            </div>
+          </article>
+          <article class="pick">
+            <img src="https://picsum.photos/seed/hjspray05/480/300" width="480" height="300" loading="lazy" alt="标注着日期格子的日历墙面照片">
+            <div class="body">
+              <span class="pill">更新</span>
+              <h3>11月第一周发布日历</h3>
+              <p>按天列出发布、删改、回复三类动作，空档日也标出。</p>
+              <div class="meta"><span>11-08 汇总</span><span>7 天记录</span></div>
+            </div>
+          </article>
+          <article class="pick">
+            <img src="https://picsum.photos/seed/hjspray06/480/300" width="480" height="300" loading="lazy" alt="一份打印出来的核对清单被红笔标注">
+            <div class="body">
+              <span class="pill">方法</span>
+              <h3>核对版本差异的四步清单</h3>
+              <p>从时间戳、原句、配图顺序、删改时间四个点入手，不靠印象。</p>
+              <div class="meta"><span>11-03 发布</span><span>4 个步骤</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 最新更新 -->
+      <section class="card" id="updates" aria-labelledby="h2-updates">
+        <div class="sec-head">
+          <div>
+            <span class="kicker">最新更新</span>
+            <h2 id="h2-updates">近七天可见变化逐条记录</h2>
+          </div>
+          <span class="sec-tag">截至 2026-11-08</span>
+        </div>
+        <ul class="list-compact">
+          <li>
+            <time datetime="2026-11-07">11-07 22:40</time>
+            <span class="t">第三次回应删除「全程一镜」表述<small>原文改口为「分段拍摄，剪辑后合成」，与原贴描述不同，改动可见于页面编辑记录。</small></span>
+            <span class="chip">说法变更</span>
+          </li>
+          <li>
+            <time datetime="2026-11-06">11-06 18:12</time>
+            <span class="t">同类账号对照表补入第 6 个样本<small>新样本承诺周更两次，实际 10-20 至 11-06 发布 3 条，间隔 9 天。</small></span>
+            <span class="chip">对照</span>
+          </li>
+          <li>
+            <time datetime="2026-11-05">11-05 11:03</time>
+            <span class="t">10 月发布日历补齐空档日<small>10-26、10-27 两天无更新，此前未被记录。</small></span>
+            <span class="chip">补录</span>
+          </li>
+          <li>
+            <time datetime="2026-11-04">11-04 20:26</time>
+            <span class="t">深度解析新增「改口动机」一节<small>围绕 10-29 与 11-03 两次发帖的措辞差异展开。</small></span>
+            <span class="chip">阅读区</span>
+          </li>
+          <li>
+            <time datetime="2026-11-03">11-03 09:48</time>
+            <span class="t">账号主页恢复两条被隐藏的旧帖<small>恢复后可见评论区追加说明，字数约 160 字。</small></span>
+            <span class="chip">账号</span>
+          </li>
+          <li>
+            <time datetime="2026-11-02">11-02 16:37</time>
+            <span class="t">FAQ 增补「如何判断拍摄人数」一问<small>答案只讲可观察的镜头切换与机位变化，不推测身份。</small></span>
+            <span class="chip">FAQ</span>
+          </li>
+          <li>
+            <time datetime="2026-11-01">11-01 21:05</time>
+            <span class="t">第一条喷水片段被重新上传<small>画面内容与 9 月版本一致，封面图更换为第二帧。</small></span>
+            <span class="chip">片段</span>
+          </li>
+          <li>
+            <time datetime="2026-10-31">10-31 12:20</time>
+            <span class="t">评论样本归档至 4 条<small>保留有日期或引述原文的评论，其余移出样本。</small></span>
+            <span class="chip">评论</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 分类入口 -->
+      <section class="card" id="channels" aria-labelledby="h2-channels">
+        <div class="sec-head">
+          <div>
+            <span class="kicker">分类入口</span>
+            <h2 id="h2-channels">按检索习惯划分的十个频道</h2>
+          </div>
+          <span class="sec-tag">点击进入对应部门</span>
+        </div>
+        <div class="tag-index">
+          <a href="/#deep">喷水片段版本差异 <em>24</em></a>
+          <a href="/#updates">更新周期与拖延记录 <em>18</em></a>
+          <a href="/#faq">拍摄人数判断方法 <em>9</em></a>
+          <a href="/#picks">同类账号对照样本 <em>6</em></a>
+          <a href="/#comments">评论区原话摘录 <em>31</em></a>
+          <a href="/#deep">账号删改痕迹追踪 <em>12</em></a>
+          <a href="/#guide">新观众阅读顺序 <em>5</em></a>
+          <a href="/#news">海角社区 10 月榜单 <em>15</em></a>
+          <a href="/#timeline">发布日历与空档日 <em>7</em></a>
+          <a href="/#overview">标签命名与检索技巧 <em>11</em></a>
+        </div>
+      </section>
+
+      <!-- 深度解析：唯一主体阅读区 -->
+      <section class="deep" id="deep" aria-labelledby="h2-deep">
+        <span class="kicker">深度解析</span>
+        <h2 id="h2-deep">三次改口不是记忆问题，是发布节奏和互动结构共同推出来的</h2>
+        <p>先把判断放在前面：这个账号在 10-29 到 11-07 之间的三次说法变更，主因不是记错，而是每次回应都在评论区追问下追加新承诺，承诺又与旧表述冲突。这个判断可以被反驳——如果有人能拿出 9 月 20 日之前同样长周期的版本并存记录，说明改口更早、更连续，那节奏论就站不牢。目前可见的最早版本是 10-24 那条。</p>
+
+        <h3>10-24 到 11-07 的版本时间线，三处关键改动</h3>
+        <p>10-24 20:15 的首条长文写「一次拍完，中间没停」，全文 420 字，配图两张。10-29 22:40 的回应改成「过程分了两次」，字数涨到 610 字，新增一段解释机位移动。11-03 09:48 恢复旧帖时，评论区追加说明写「有三个人在场」，与首条的「一人完成」冲突。11-07 又把「全程一镜」的表述整个删掉，换成「分段拍摄，剪辑后合成」。</p>
+        <p>四处改动指向同一组变量：拍摄人数、拍摄次数、剪辑与否。前两项在首条里都是明确表述，不是含糊措辞。改到 11-07，三项全部变过一次。这个改动频率在同期六个对照账号里是最高的，第二名只有一个变量改过一次。</p>
+        <div class="table-wrap">
+          <table>
+            <caption>三版回应中可核对的三项表述（据公开页面编辑记录整理）</caption>
+            <thead>
+              <tr><th>变量</th><th>10-24 版</th><th>10-29 版</th><th>11-07 版</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>拍摄次数</td><td>一次拍完</td><td>分了两次</td><td>分段拍摄</td></tr>
+              <tr><td>在场人数</td><td>一人完成</td><td>未提</td><td>三个人在场</td></tr>
+              <tr><td>是否剪辑</td><td>否</td><td>未提</td><td>剪辑后合成</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>用六个对照样本说明：拖延与改口常常同时出现</h3>
+        <p>取 10-20 至 11-06 这段时间里同标签、同类型、更新承诺相近的六个账号做对照。三个账号按时更新、说法只改过一次或没改；另外三个账号都出现过至少 7 天的空档，且空档之后的第一条都带更正性表述。样本小，不能当规律用，但足以说明「改口」不是孤例。</p>
+        <p>把六个样本的承诺周期与实际间隔列出来，拖延天数分别是 0、2、0、9、11、5。拖延超过 7 天的两个账号，改口次数分别是 2 次和 3 次；拖延不到 3 天的四个账号，改口次数上限是 1 次。这组数字支持「节奏紊乱伴随说法变更」，但不支持因果，因为样本里也有一个 9 天拖延但只改口一次的账号。</p>
+
+        <h3>评论区结构如何放大改口：追问集中在两处</h3>
+        <p>11-03 恢复的旧帖下，追问集中在两个点：机位为什么变、为什么时长对不上。这两点恰好对应表格里的「拍摄次数」和「是否剪辑」。每条追问平均获得 3.4 条回复，回复中又有 1 到 2 条继续追问，形成链式追加。账号在该帖的回复共 17 条，其中 9 条含新信息，8 条只是情绪回应。含新信息的 9 条里，有 5 条后来被自己推翻。</p>
+        <div class="claim">
+          <b>可以拿这句话来反驳或引用</b>
+          「这个账号的改口，是回应速度超过核对速度的产物：17 条回复里 5 条被自己推翻，说明回复时没有回看旧帖。」
+        </div>
+        <p>反驳的方向有两个。其一，如果编辑记录显示这些回复是同一小时内集中发的，那更像是情绪化连发，不能算「回应速度」问题；其二，如果旧帖的评论区在 11-03 前被隐藏，回复者看不到首条表述，那么版本冲突的责任就不全在账号。目前可见的页面编辑记录显示回复跨了 6 个小时，第二条反驳缺少直接证据。</p>
+
+        <h3>可信度分层：哪些能核对，哪些只能转述</h3>
+        <p>属于事实层的：发布时间、编辑记录可见的四次改动、评论区回复条数、六个对照账号的发布间隔。这些都能在公开页面逐条点开核对。属于回应的：账号对拍摄人数和剪辑方式的三次表述。属于转述的：社区里流传的「现场有第四人」，目前没有任何带日期的原帖或截图支撑。属于推测的：改口动机是记忆问题还是话术调整，只能靠行为差异推断。</p>
+        <blockquote>11-06 一位用户在评论区写：「10-24 那条我截过图，写的就是一次拍完，不是剪辑。」这条评论附了截图，截图可见日期水印，属于可核对材料，但截图的原始页面是否被后续编辑，仍需对照编辑记录。</blockquote>
+        <p>把材料按层分开之后，能下的结论其实很有限：账号的公开表述在 14 天内至少改了三次，其中两处属于对首条明确说法的推翻。至于为什么改，材料只到「回应密集、缺少回看」这一层，再往前就走不动了。</p>
+      </section>
+
+      <!-- 体验指南 -->
+      <section class="card" id="guide" aria-labelledby="h2-guide">
+        <div class="sec-head">
+          <div>
+            <span class="kicker">体验指南</span>
+            <h2 id="h2-guide">新观众从哪一条开始看，按什么顺序核对</h2>
+          </div>
+          <span class="sec-tag">四步，约 25 分钟</span>
+        </div>
+        <ol class="steps">
+          <li><div><b>先看 10-24 首条长文</b><span>这是目前可见最早的一版，420 字，三处关键表述都在里面。先记下拍摄次数、在场人数、是否剪辑三项，后面所有比对都围绕这三项。</span></div></li>
+          <li><div><b>再看 10-29 与 11-07 两次回应</b><span>把改动逐条标在纸上，只标与首条不一致的地方。11-07 那条删掉了「全程一镜」，属于整句删除，比改词更容易漏看。</span></div></li>
+          <li><div><b>翻 11-03 恢复旧帖的评论区</b><span>重点关注 6 小时内 17 条回复里带新信息的那 9 条。其中 5 条后来被自己推翻，对照时用不同颜色标。</span></div></li>
+          <li><div><b>最后看 11-06 的截图评论</b><span>截图有日期水印，是目前唯一带时间痕迹的第三方材料。核对时区分「截图内容」与「截图是否被编辑」，两件事不能混为一谈。</span></div></li>
+        </ol>
+        <div class="panel-compare" style="margin-top:var(--sp-3)">
+          <div class="a">
+            <h4>值得花时间的核对</h4>
+            <ul>
+              <li>页面编辑记录里的四次改动时间</li>
+              <li>六个对照账号的发布间隔天数</li>
+              <li>评论区回复条数与含新信息条数</li>
+              <li>截图上的日期水印是否完整</li>
+            </ul>
+          </div>
+          <div class="b">
+            <h4>核对不出来、别耗着的</h4>
+            <ul>
+              <li>「第四人」是谁，没有可核材料</li>
+              <li>删改的动机，只能推测</li>
+              <li>账号的真实身份与所在地</li>
+              <li>片段是否再被第三方转载</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="card" id="faq" aria-labelledby="h2-faq">
+        <div class="sec-head">
+          <div>
+            <span class="kicker">常见问题</span>
+            <h2 id="h2-faq">关于喷水片段与版本核对的高频疑问</h2>
+          </div>
+          <span class="sec-tag">8 问</span>
+        </div>
+
+        <details>
+          <summary>喷水片段通常多长，为什么时长对不上</summary>
+          <div class="ans"><p>短片类条目单条多在 40 秒到 2 分钟之间。时长对不上有两种常见原因：一是分段拍摄后拼接，原始素材与成片时长不同；二是平台压缩或剪辑时截掉头尾。核对时先看编辑记录里的上传时间，再看评论区有没有提到分段。</p></div>
+        </details>
+        <details>
+          <summary>怎么判断一条喷水片段是几个人拍的</summary>
+          <div class="ans"><p>只看画面里的机位变化：同一段里出现两个以上互不重叠的视角，且光线方向明显不同，通常意味着至少两个机位。如果全程只有一个视角、光线方向不变，不能据此断定只有一个人，也可能是固定机位单人完成。可核对的是机位数量，不是人数。</p></div>
+        </details>
+        <details>
+          <summary>10月29日的回应为什么被反复引用</summary>
+          <div class="ans"><p>那一版第一次把「一次拍完」改成「分了两次」，是四版里改动最明确的一处，原文措辞也最容易截图保留。后续讨论多数围绕这一处展开，所以引用密度最高。</p></div>
+        </details>
+        <details>
+          <summary>账号删掉「全程一镜」四个字说明了什么</summary>
+          <div class="ans"><p>说明原表述与后续自述冲突，选择整句删除而不是加注更正。这在版本管理上是一个可记录的动作，但单凭删除推不出动机。可核对的是删除时间（11-07 22:40）与删除前后的页面文本差异。</p></div>
+        </details>
+        <details>
+          <summary>社区里说的「第四人」有依据吗</summary>
+          <div class="ans"><p>目前没有。带日期的原帖、截图、评论区原话里都只到「三个人在场」。这条说法属于转述层，来源不明，不能当作已核实内容使用。</p></div>
+        </details>
+        <details>
+          <summary>同类账号对照为什么只取六个样本</summary>
+          <div class="ans"><p>取的是 10-20 至 11-06 之间同标签、同类型、更新承诺相近的账号，满足条件的只有这些。样本扩大需要更长的时间窗口，而窗口一长，账号的更新方式就会变，对照意义下降。</p></div>
+        </details>
+        <details>
+          <summary>截图评论能当作证据吗</summary>
+          <div class="ans"><p>能作为材料，不能直接作为结论。截图上有日期水印，说明拍摄时间可追溯；但截图本身是否被修改、原始页面是否被编辑，需要另外核对。分开看这两层，判断会稳一些。</p></div>
+        </details>
+        <details>
+          <summary>海角社区里同标签条目怎么检索更准</summary>
+          <div class="ans"><p>「喷水」单标签条目超过 200 条，命名重复度高。加日期前缀或账号前缀能缩小范围，比如「10-24 喷水」或「账号前缀 + 喷水」。检索框支持中文分段，直接输入日期效果最好。</p></div>
+        </details>
+      </section>
+
+      <!-- 用户评论 -->
+      <section class="card" id="comments" aria-labelledby="h2-comments">
+        <div class="sec-head">
+          <div>
+            <span class="kicker">观众评论</span>
+            <h2 id="h2-comments">评论区原话：有指向条目的，也有纯粹吐槽的</h2>
+          </div>
+          <span class="sec-tag">4 条原话 + 新增</span>
+        </div>
+        <div class="comments" id="commentList">
+          <article class="cmt ref">
+            <header><span class="avatar">阿</span><span class="who">阿祈</span><time datetime="2026-11-07">11-07 23:12</time><span class="badge-obj">指向条目</span></header>
+            <p>「全程一镜」这句我 10-24 就存了截图，11-07 再看已经没了，页面只显示修改时间，不显示原文。要核对只能靠存档，官方编辑记录不完整。</p>
+          </article>
+          <article class="cmt">
+            <header><span class="avatar">老</span><span class="who">老周不看片</span><time datetime="2026-11-06">11-06 19:40</time></header>
+            <p>说实话这种账号看多了就那样，喷水不喷水无所谓，主要是更新老拖。承诺周更两条，10 月底那周只发了一条。</p>
+          </article>
+          <article class="cmt ref">
+            <header><span class="avatar">灯</span><span class="who">灯下抄书</span><time datetime="2026-11-05">11-05 10:22</time><span class="badge-obj">指向条目</span></header>
+            <p>11-03 那条恢复帖的评论区，17 条回复里我第一次数出 9 条带新信息，第二次数成 8 条，差别在「有三个人在场」算不算新信息。这种边界最好在整理时写清楚。</p>
+          </article>
+          <article class="cmt">
+            <header><span class="avatar">小</span><span class="who">小满</span><time datetime="2026-11-04">11-04 21:05</time></header>
+            <p>对照表做得还行，但六个样本里有一个账号根本不是同类型，更新节奏差太远了，放进去拉低可信度。</p>
+          </article>
+        </div>
+        <form class="cmt-form" id="cmtForm">
+          <label for="cmtName">昵称</label>
+          <input id="cmtName" name="name" maxlength="16" placeholder="怎么称呼你">
+          <label for="cmtText">评论（请指向具体条目或日期）</label>
+          <textarea id="cmtText" name="text" maxlength="200" placeholder="例：10-29 那条的拍摄次数说法和首条对不上"></textarea>
+          <button type="submit">提交评论</button>
+          <p class="form-note" id="cmtNote">评论先保存在本地页面，刷新后不保留。示例互动，不写回服务器。</p>
+        </form>
+      </section>
+
+      <!-- 相关资讯 -->
+      <section class="card" id="news" aria-labelledby="h2-news">
+        <div class="sec-head">
+          <div>
+            <span class="kicker">相关资讯</span>
+            <h2 id="h2-news">同期社区动态与榜单变化</h2>
+          </div>
+          <span class="sec-tag">4 条</span>
+        </div>
+        <div class="news">
+          <article>
+            <h3>海角社区 10 月内容榜：喷水类条目占比升到 14%</h3>
+            <p>10 月榜单前 50 条里，带「喷水」标签的占 7 条，比 9 月的 4 条多出 3 条。榜单按周互动量排序，不含播放数据。</p>
+            <div class="src"><span>来源：社区周榜页面</span><span>记录日 11-02</span></div>
+          </article>
+          <article>
+            <h3>账号连续两周未更新后的首次发帖规律</h3>
+            <p>对照的六个账号里，空档超 7 天的有三个，复更首条全部带更正或补充说明，字数在 180 到 610 字之间。说明性文字占比高于日常更新。</p>
+            <div class="src"><span>来源：对照表条目</span><span>记录日 11-06</span></div>
+          </article>
+          <article>
+            <h3>11 月第一周社区新增标签「分段拍摄」</h3>
+            <p>标签上线于 11-03，截至 11-07 已有 11 条内容使用。使用该标签的条目多数在正文里提到剪辑方式，与「一镜」标签形成对照。</p>
+            <div class="src"><span>来源：标签页</span><span>记录日 11-07</span></div>
+          </article>
+          <article>
+            <h3>评论区字数上限调整，长评比例下降</h3>
+            <p>单条评论上限从 500 字改为 200 字，10-30 之后超过 150 字的评论占比从 23% 降到 9%。带截图的长评受影响最明显。</p>
+            <div class="src"><span>来源：社区公告</span><span>记录日 10-30</span></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 补充板块：时间线 -->
+      <section class="card" id="timeline" aria-labelledby="h2-timeline">
+        <div class="sec-head">
+          <div>
+            <span class="kicker">发布日历</span>
+            <h2 id="h2-timeline">10-24 至 11-07 逐日动作</h2>
+          </div>
+          <span class="sec-tag">含空档日</span>
+        </div>
+        <ol class="timeline">
+          <li><time datetime="2026-11-07">11-07</time><span>22:40 删除「全程一镜」，改为「分段拍摄，剪辑后合成」。</span></li>
+          <li><time datetime="2026-11-06">11-06</time><span>18:12 对照表补入第 6 个样本；当日无新片段发布。</span></li>
+          <li><time datetime="2026-11-05">11-05</time><span>11:03 补齐 10 月发布日历，标出 10-26、10-27 两个空档日。</span></li>
+          <li><time datetime="2026-11-03">11-03</time><span>09:48 恢复两条旧帖，评论区追加 160 字说明，提到「有三个人在场」。</span></li>
+          <li><time datetime="2026-10-30">10-30</time><span>社区调整评论字数上限，长评样本的可比性下降。</span></li>
+          <li><time datetime="2026-10-29">10-29</time><span>22:40 第二次回应，拍摄次数改为「分了两次」，新增机位解释段。</span></li>
+          <li><time datetime="2026-10-26">10-26</time><span>无更新。空档第一天。</span></li>
+          <li><time datetime="2026-10-24">10-24</time><span>20:15 首条长文，420 字，写「一次拍完，一人完成」，配图两张。</span></li>
+        </ol>
+      </section>
+
+      <!-- 相关推荐 -->
+      <section class="card" id="related" aria-labelledby="h2-related">
+        <div class="sec-head">
+          <div>
+            <span class="kicker">相关推荐</span>
+            <h2 id="h2-related">顺着这些具体条目继续查</h2>
+          </div>
+        </div>
+        <div class="rel-tags">
+          <a href="/#deep">喷水片段版本差异表</a>
+          <a href="/#updates">10-29 回应原文留档</a>
+          <a href="/#faq">拍摄人数判断方法</a>
+          <a href="/#picks">同类账号六个样本</a>
+          <a href="/#comments">11-03 恢复帖评论</a>
+          <a href="/#guide">新观众四步核对</a>
+          <a href="/#news">海角社区 10 月榜单</a>
+          <a href="/#timeline">发布日历空档日</a>
+          <a href="/#overview">喷水标签命名规则</a>
+          <a href="/#related">编辑记录可见性讨论</a>
+        </div>
+        <div class="poll" style="margin-top:var(--sp-3)" id="pollBox">
+          <p style="font-size:var(--fs-2);color:var(--ink-2);margin-bottom:2px"><b>投票：你最想先核对哪一项？</b></p>
+          <button class="poll-row" type="button" data-k="a">拍摄次数 <span class="pct">0%</span><span class="poll-bar"><i></i></span></button>
+          <button class="poll-row" type="button" data-k="b">在场人数 <span class="pct">0%</span><span class="poll-bar"><i></i></span></button>
+          <button class="poll-row" type="button" data-k="c">是否剪辑 <span class="pct">0%</span><span class="poll-bar"><i></i></span></button>
+          <p class="form-note" id="pollNote">示例投票，只在本页计数。</p>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- 侧栏：按 DOM 顺序放主内容之后，移动端自然落到下方 -->
+    <aside class="sidebar" aria-label="侧栏导航与说明">
+      <div class="side-card">
+        <h3>栏目速览</h3>
+        <ul class="side-nav" id="sideNav">
+          <li><a href="/#overview">领域概览</a></li>
+          <li><a href="/#picks">精选条目</a></li>
+          <li><a href="/#updates">最新更新</a></li>
+          <li><a href="/#channels">分类入口</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+          <li><a href="/#guide">体验指南</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+          <li><a href="/#comments">观众评论</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#timeline">发布日历</a></li>
+          <li><a href="/#related">相关推荐</a></li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>图例：信息层</h3>
+        <ul class="defs" style="margin:0">
+          <li><b>事实</b>：发布时间、编辑记录、评论条数，可逐条点开核对。</li>
+          <li><b>回应</b>：账号本人对拍摄方式的表述，会随版本变。</li>
+          <li><b>转述</b>：社区流传说法，缺少带日期的原始材料。</li>
+          <li><b>推测</b>：动机判断，只放在深度解析里。</li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>检索提示</h3>
+        <p class="side-note">输入日期（如 10-29）或账号前缀，比只输「喷水」更准。同标签条目超过 200 条，命名重复度高。站内查找为本地匹配，不访问服务器。</p>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<!-- 页尾 -->
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#0f5a6b"/><path d="M7 27c4-13 9-13 13 0s7 13 13 0" stroke="#52d6c8" stroke-width="3.4" fill="none" stroke-linecap="round"/></svg>
+          海角大神会喷水的亲姐姐
+        </div>
+        <p class="foot-pos">把公开说法、编辑记录与评论区材料分层存放，方便逐条比对，不做转述之外的推断。</p>
+      </div>
+      <div>
+        <h4>条目</h4>
+        <ul class="foot-list">
+          <li><a href="/#deep">版本差异</a></li>
+          <li><a href="/#updates">更新记录</a></li>
+          <li><a href="/#timeline">发布日历</a></li>
+          <li><a href="/#picks">对照样本</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>方法</h4>
+        <ul class="foot-list">
+          <li><a href="/#guide">四步核对</a></li>
+          <li><a href="/#faq">拍摄人数判断</a></li>
+          <li><a href="/#overview">标签检索</a></li>
+          <li><a href="/#comments">评论摘录</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>社区</h4>
+        <ul class="foot-list">
+          <li><a href="/#news">周榜动态</a></li>
+          <li><a href="/#channels">频道索引</a></li>
+          <li><a href="/#related">相关推荐</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>示例数据说明：页面内容为演示用示例条目，账号表述、评论与对照样本均为虚构整理，仅用于展示信息分层与核对方法。</span>
+      <span>更新时间 2026-11-08 · 对应正文 11-07 说法变更与 11-06 样本增补</span>
+    </div>
+  </div>
+</footer>
+
+<button id="toTop" type="button" aria-label="回到页面顶部">↑</button>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"海角大神会喷水的亲姐姐","description":"海角社区账号条目的版本记录、说法核对与同类账号对照整理。","inLanguage":"zh-CN"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"喷水片段通常多长，为什么时长对不上","acceptedAnswer":{"@type":"Answer","text":"短片类条目单条多在40秒到2分钟之间。时长对不上常见于分段拍摄后拼接，或平台压缩截掉头尾。核对时先看编辑记录的上传时间，再看评论区是否提到分段。"}},
+{"@type":"Question","name":"怎么判断一条喷水片段是几个人拍的","acceptedAnswer":{"@type":"Answer","text":"只看画面机位变化：同一段出现两个以上互不重叠的视角、光线方向明显不同，通常意味着至少两个机位。全程单一视角不能断定只有一人，可核对的是机位数量，不是人数。"}},
+{"@type":"Question","name":"10月29日的回应为什么被反复引用","acceptedAnswer":{"@type":"Answer","text":"该版第一次把一次拍完改成分了两次，是四版里改动最明确的一处，原文措辞容易截图保留，后续讨论多围绕这处展开。"}},
+{"@type":"Question","name":"账号删掉全程一镜四个字说明了什么","acceptedAnswer":{"@type":"Answer","text":"原表述与后续自述冲突，选择整句删除而非加注更正。可核对的是删除时间11-07 22:40与删除前后的文本差异，单凭删除推不出动机。"}},
+{"@type":"Question","name":"社区里说的第四人有依据吗","acceptedAnswer":{"@type":"Answer","text":"目前没有。带日期的原帖、截图、评论原话都只到三个人在场。这条属于转述层，来源不明，不能当作已核实内容使用。"}},
+{"@type":"Question","name":"同类账号对照为什么只取六个样本","acceptedAnswer":{"@type":"Answer","text":"取10-20至11-06同标签、同类型、更新承诺相近的账号，满足条件的只有六个。窗口拉长后账号更新方式会变，对照意义下降。"}},
+{"@type":"Question","name":"截图评论能当作证据吗","acceptedAnswer":{"@type":"Answer","text":"能作为材料，不能直接当结论。截图有日期水印说明可追溯，但截图是否被修改、原页面是否被编辑需另外核对，两层分开看更稳。"}},
+{"@type":"Question","name":"海角社区里同标签条目怎么检索更准","acceptedAnswer":{"@type":"Answer","text":"喷水单标签条目超过200条，命名重复度高。加日期前缀或账号前缀可缩小范围，例如10-24喷水，或账号前缀加喷水，直接输入日期效果最好。"}}
+]}
+</script>
+<script>
+(function(){
+  var menuBtn=document.getElementById('menuBtn');
+  var nav=document.getElementById('mainNav');
+  if(menuBtn&&nav){
+    menuBtn.addEventListener('click',function(){
+      var open=nav.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded',open?'true':'false');
+    });
+    nav.addEventListener('click',function(e){
+      if(e.target.tagName==='A'&&window.matchMedia('(max-width:760px)').matches){
+        nav.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  // 本地查找
+  var q=document.getElementById('q'), qBtn=document.getElementById('qBtn'), fb=document.getElementById('qFeedback');
+  function doSearch(){
+    var kw=(q.value||'').trim();
+    if(!kw){fb.textContent='';return;}
+    var body=document.body.innerText||'';
+    var low=body.toLowerCase();
+    var count=0, idx=-1;
+    var target=kw.toLowerCase();
+    while((idx=low.indexOf(target,idx+1))!==-1){count++;}
+    if(count===0){
+      fb.textContent='没有找到「'+kw+'」相关的条目。换一个日期（如 10-29）或账号前缀试试。';
+    }else{
+      fb.textContent='找到 '+count+' 处与「'+kw+'」相关的内容，已定位第一个匹配位置。';
+      var walker=document.createTreeWalker(document.querySelector('main'),NodeFilter.SHOW_TEXT,null);
+      var n;
+      while((n=walker.nextNode())){
+        if(n.nodeValue.toLowerCase().indexOf(target)!==-1){
+          var el=n.parentElement;
+          if(el&&el.scrollIntoView){el.scrollIntoView({behavior:'smooth',block:'center'});}
+          break;
+        }
+      }
+    }
+  }
+  if(qBtn) qBtn.addEventListener('click',doSearch);
+  if(q) q.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();doSearch();}});
+
+  // 滚动高亮
+  var sideLinks=Array.prototype.slice.call(document.querySelectorAll('#sideNav a'));
+  var sections=sideLinks.map(function(a){
+    var id=a.getAttribute('href').replace('/#','');
+    return document.getElementById(id);
+  }).filter(Boolean);
+  function onScroll(){
+    var y=window.scrollY+140, cur=null;
+    sections.forEach(function(s){if(s.offsetTop<=y)cur=s.id;});
+    sideLinks.forEach(function(a){
+      var id=a.getAttribute('href').replace('/#','');
+      a.classList.toggle('active',id===cur);
+    });
+    var top=document.getElementById('toTop');
+    if(top){top.classList.toggle('show',window.scrollY>520);}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  onScroll();
+
+  var toTop=document.getElementById('toTop');
+  if(toTop){toTop.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});}
+
+  // 评论提交（本地）
+  var form=document.getElementById('cmtForm');
+  if(form){
+    form.addEventListener('submit',function(e){
+      e.preventDefault();
+      var name=document.getElementById('cmtName').value.trim()||'匿名观众';
+      var text=document.getElementById('cmtText').value.trim();
+      var note=document.getElementById('cmtNote');
+      if(text.length<4){note.textContent='内容太短，写点具体的条目或日期吧。';return;}
+      var list=document.getElementById('commentList');
+      var art=document.createElement('article');
+      art.className='cmt';
+      var d=new Date();
+      var hh=('0'+d.getHours()).slice(-2), mm=('0'+d.getMinutes()).slice(-2);
+      art.innerHTML='<header><span class="avatar">'+name.slice(0,1)+'</span><span class="who"></span><span>'+hh+':'+mm+' 刚刚</span></header><p></p>';
+      art.querySelector('.who').textContent=name;
+      art.querySelector('p').textContent=text;
+      list.appendChild(art);
+      form.reset();
+      note.textContent='评论已添加到本页列表顶部下方，仅本次浏览有效。';
+    });
+  }
+
+  // 投票
+  var votes={a:0,b:0,c:0}, total=0, chosen=null;
+  var rows=Array.prototype.slice.call(document.querySelectorAll('#pollBox .poll-row'));
+  rows.forEach(function(r){
+    r.addEventListener('click',function(){
+      var k=r.getAttribute('data-k');
+      if(chosen)return;
+      chosen=k; votes[k]++; total++;
+      rows.forEach(function(x){
+        var kk=x.getAttribute('data-k');
+        var pct=Math.round(votes[kk]/total*100);
+        x.querySelector('.pct').textContent=pct+'%';
+        x.querySelector('.poll-bar i').style.width=pct+'%';
+        if(kk===k)x.classList.add('chosen');
+      });
+      document.getElementById('pollNote').textContent='已记录你的选择（示例，仅本页）。';
+    });
+  });
+})();
+</script>
+</body>
+  </html>
